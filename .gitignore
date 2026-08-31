@@ -12,6 +12,7 @@
 
 # testing
 /coverage
+coverage.json
 
 # next.js
 /.next/
@@ -31,8 +32,6 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files
-.env.local
-.env.production
 
 # hardhat
 contracts/cache
@@ -48,3 +47,4 @@ logs/
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+config.bat
